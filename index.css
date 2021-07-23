@@ -1,0 +1,176 @@
+body{
+	font-size: 16px;
+	margin: 0;
+}
+
+.menu{
+	text-align: center;
+	background-color: #259055;
+	width: 100%;
+	z-index: 2;
+	height: 30px;
+	word-spacing: 25px;
+	padding-top: 10px;
+	position: fixed;
+}
+a{
+	color: white;
+	text-decoration: none;
+	word-spacing: 5px;
+
+
+}
+.header{
+	width: 100%;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	height: 400px;
+	background-repeat: no-repeat;
+	text-align: justify;
+	margin-top: -22px;
+
+
+}
+h1{
+	height: 50px;
+	width: 650px;
+	text-align: center;
+	font-style: italic;
+	padding-top: 125px;
+	padding-left: 15px;
+}
+.win{
+	text-align: right;
+	font-size: 10px;
+	padding-right: 35px;
+	padding-top: 150px;
+}
+.facts{
+	width: 100%;
+	height: 450px;
+	background-color: #259055;
+	margin-top: -20px;
+}
+.int{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding-top: 30px;
+	text-decoration: underline;
+
+
+}
+.b{
+	font-weight: bold;
+}
+.n{
+	font-style: italic;
+}
+li{
+	line-height: 40px;
+}
+.pics{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+.gal{
+	width: 100%;
+	height: 900px;
+}
+.cat{
+	position: absolute;
+	left: 225px;
+	border: 3px solid red;
+}
+.greycat{
+	
+	position: absolute;
+	left: 800px;
+	border: 3px solid royalblue;
+}
+.whitecat{
+	height: 350px;
+	position: absolute;
+	width: 500px;
+	bottom: -925px;
+	left: 225px;
+	border: 3px solid green;
+
+}
+.blueye{
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	bottom: -925px;
+	left: 800px;
+	border: 3px solid yellow;
+}
+.email{
+	width: 100%;
+	height: 700px;
+	background-color: #259055;
+}
+.contact{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+form{
+	box-sizing: border-box;
+	width: 500px;
+	text-align: center;
+	margin: 50px auto;
+	padding: 15px;
+	margin-top: 15px;
+
+}
+input{
+	margin-top: 20px;
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	width: 250px;
+	margin-left: 75px;
+	border: 2px solid turquoise;
+
+}
+.opt{
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 85px;
+	width: 250px;
+	margin-top: 10px;
+	border: 2px solid turquoise;
+}
+textarea{
+	display: block;
+	margin-left: 80px;
+	margin-top: 10px;
+	border: 2px solid turquoise;
+	width: 250px;
+	height: 50px;
+}
+.but{
+	margin-top: 20px;
+	background-color: red;
+	width: 200px;
+	height: 40px;
+	border-radius: 8px;
+	border: 2px solid turquoise;
+}
+.but:hover{
+	color: black;
+	background-color: grey;
+	cursor: pointer;
+}
+fieldset{
+	border-radius: 5px;
+	border: 3px solid green;
+}
+
